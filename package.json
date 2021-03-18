@@ -1,0 +1,14 @@
+{
+  "name": "mini-router",
+  "version": "0.0.1",
+  "description": "a minimal modern JavaScript router",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "author": "MeursaultChao <zhaoyucheng@live.cn>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}

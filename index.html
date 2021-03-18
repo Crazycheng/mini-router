@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>迷你路由</title>
+</head>
+<body>
+<nav style="display: flex; cursor: pointer">
+    <div id="home">首页</div>|
+    <div id="about">关于</div>|
+    <div id="detail12">详情页id为12，渠道为baidu</div>|
+    <div id="detail20">详情页id为20，渠道为toutiao</div>
+</nav>
+<!--history模式-->
+<nav>
+    <a href="/">首页</a>|
+    <a href="/about">关于</a>|
+    <a href="/news/12/detail/baidu">详情页id为12，渠道为baidu</a>
+    <a href="/news/20/detail/toutiao">详情页id为20，渠道为toutiao</a>
+</nav>
+<!--hash模式-->
+<!--<nav>-->
+<!--    <a href="/#/">首页</a>|-->
+<!--    <a href="/#/about">关于</a>|-->
+<!--    <a href="/#/news/12/detail/baidu">详情页id为12，渠道为百度</a>-->
+<!--    <a href="/#/news/20/detail/toutiao">详情页id为20，渠道为头条</a>-->
+<!--</nav>-->
+<div id="app"></div>
+<script src="./index.js"></script>
+</body>
+</html>
